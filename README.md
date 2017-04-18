@@ -16,6 +16,6 @@ Screenshot :
 <img src="https://github.com/sumitsahoo/SceneTransitionExample/blob/master/device-2017-04-18_2.gif" width="350"/>
 
 
-That's it, easy isn't it ?
+That's it, easy isn't it ? Learn more at : https://developer.android.com/training/transitions/index.html
 
 Happy Coding :)
