@@ -41,6 +41,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (v == buttonStartTransition) {
 
             // Start detail activity with transition
+            // Transition name needs to be same on both the View to make the scene transition work across activities
+            // View ID can be different
 
             ActivityOptionsCompat activityOptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(MainActivity.this, imageViewRobot, context.getString(R.string.transition_name));
             Intent intent = new Intent(MainActivity.this, DetailActivity.class);
